@@ -1,8 +1,8 @@
 {
-  "name": "typescript-action",
+  "name": "auto-release-draft",
   "version": "0.0.0",
   "private": true,
-  "description": "TypeScript template action",
+  "description": "Drafts a GitHub release",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
@@ -15,20 +15,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/typescript-action.git"
+    "url": "git+https://github.com/mdizcalvinoaz400-01/github-actions-course-template.git"
   },
   "keywords": [
     "actions",
     "node",
     "setup"
   ],
-  "author": "",
+  "author": "manueldizcalvinoaz400-01",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.4.0"
   },
   "devDependencies": {
-    "@types/node": "^16.3.3",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.4.3",
     "@typescript-eslint/parser": "^4.28.3",
     "@vercel/ncc": "^0.29.0",
     "eslint": "^7.31.0",
